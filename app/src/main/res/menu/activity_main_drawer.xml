@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_open_map"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Xem toàn bộ địa điểm" />
+        <item
+            android:id="@+id/nav_open_map_last"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Xem địa điểm cuối cùng" />
+        <item
+        android:id="@+id/nav_open_map_checked"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Xem địa điểm đã chọn" />
+    </group>
+
+    <item android:title="Tài khoản">
+        <menu>
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Đăng xuất" />
+            <item
+                android:id="@+id/nav_signoutAndExit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Đăng xuất và thoát" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Thoát" />
+        </menu>
+    </item>
+
+    <item android:title="Trợ giúp">
+        <menu>
+            <item
+                android:id="@+id/nav_seting"
+                android:icon="@drawable/ic_setting"
+                android:title="Cài đặt" />
+            <item
+                android:id="@+id/nav_suport"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Trợ giúp và phản hồi" />
+        </menu>
+    </item>
+
+</menu>
